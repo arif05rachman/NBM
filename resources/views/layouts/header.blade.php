@@ -7,10 +7,10 @@
         
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+          <li class="{{set_active('/')}} nav-item">
               <a class="nav-link" href="{{ url('/') }}">ホーム</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {{set_active('lembaga')}}">
               <a class="nav-link" href="{{ url('lembaga') }}">教育機関について</a>
             </li>
             <li class="nav-item">
